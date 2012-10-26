@@ -1,7 +1,7 @@
 <?php
 
 require_once 'simpletest/autorun.php';
-require_once 'JsonBuilder.php';
+require_once __DIR__ . '/../lib/JsonBuilder.php';
 
 class JsonBuilderTest extends UnitTestCase {
 

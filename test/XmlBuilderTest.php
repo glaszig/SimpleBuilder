@@ -1,7 +1,7 @@
 <?php
 
 require_once 'simpletest/autorun.php';
-require_once 'XmlBuilder.php';
+require_once __DIR__ . '/../lib/XmlBuilder.php';
 
 class XmlBuilderTest extends UnitTestCase {
 
