@@ -1,5 +1,8 @@
 <?php
 
+namespace SimpleBuilder;
+use \ArrayAccess;
+
 class JsonBuilder implements ArrayAccess {
 
     protected $struct = array();

@@ -3,6 +3,8 @@
 require_once 'simpletest/autorun.php';
 require_once __DIR__ . '/../lib/XmlBuilder.php';
 
+use SimpleBuilder\XmlBuilder;
+
 class XmlBuilderTest extends UnitTestCase {
 
     public $builder;

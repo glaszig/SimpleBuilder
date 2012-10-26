@@ -1,26 +1,8 @@
 <?php
 
-/**
- * XML builder class
- * Inspired by Rails' XMLBuilder.
- *
- * Usage:
- * {{{
- *  $xml = new XmlBuilder;
- *  $xml->foo->bar->baz;
- *  $xml->foo->bla = 'blubb';
- *  $xml->foo->bla['title'] = 'empty';
- *  echo $xml;
- *  unset($xml->foo->bar);
- *  echo $xml;
- *
- *  $xml->foo->doe[0] = 'john';
- *  $xml->foo->doe[1] = 'jane';
- *  echo $xml;
- * }}}
- *
- * @author glaszig at gmail dot com
- */
+namespace SimpleBuilder;
+use \ArrayAccess, \DOMDocument, \DOMElement;
+
 class XmlBuilderElement implements ArrayAccess {
     
     protected $name = '';

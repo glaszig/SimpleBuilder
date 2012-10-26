@@ -3,6 +3,8 @@
 require_once 'simpletest/autorun.php';
 require_once __DIR__ . '/../lib/JsonBuilder.php';
 
+use SimpleBuilder\JsonBuilder;
+
 class JsonBuilderTest extends UnitTestCase {
 
     public $builder;
